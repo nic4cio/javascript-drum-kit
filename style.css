@@ -11,15 +11,20 @@ body,html {
     justify-content: center;
 }
 
-/*using flex properties to look like a launchpad, changing flex wrap aligning and justify center
-width set to 300px, no height vh*/
-
 .keys {
     display: flex;
     flex-wrap: wrap;
     width: 30em;
-    margin-top: 27em;
+    margin-top: 22em;
 }
+
+@media screen and (min-width: 540px) {
+    .keys {
+        margin-top: 27em;
+    }
+}
+
+
 
 .key {
     border: .4rem solid black;
