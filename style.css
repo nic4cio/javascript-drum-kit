@@ -1,20 +1,24 @@
 html {
     font-size: 10px;
     background: url('./assets/background.jpg');
-    background-size: cover;
 }
 
 body,html {
     font-family: sans-serif;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/*using flex properties to look like a launchpad, changing flex wrap aligning and justify center
+width set to 300px, no height vh*/
 
 .keys {
     display: flex;
-    flex: 1;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    width: 30em;
+    margin-top: 27em;
 }
 
 .key {
@@ -29,6 +33,7 @@ body,html {
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
+    flex: 1;
 }
 
 .playing {
