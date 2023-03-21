@@ -10,21 +10,19 @@ body,html {
     align-items: center;
     justify-content: center;
 }
-
 .keys {
     display: flex;
     flex-wrap: wrap;
     width: 30em;
-    margin-top: 22em;
+    margin-top: 20em;    
 }
 
 @media screen and (min-width: 540px) {
     .keys {
         margin-top: 27em;
     }
+
 }
-
-
 
 .key {
     border: .4rem solid black;
